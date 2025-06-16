@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/calfit.github.io/static/css/main.d74184e1.css",
+    "main.js": "/calfit.github.io/static/js/main.b82dd1bb.js",
+    "static/js/453.ad6eb26e.chunk.js": "/calfit.github.io/static/js/453.ad6eb26e.chunk.js",
+    "index.html": "/calfit.github.io/index.html",
+    "main.d74184e1.css.map": "/calfit.github.io/static/css/main.d74184e1.css.map",
+    "main.b82dd1bb.js.map": "/calfit.github.io/static/js/main.b82dd1bb.js.map",
+    "453.ad6eb26e.chunk.js.map": "/calfit.github.io/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d74184e1.css",
+    "static/js/main.b82dd1bb.js"
+  ]
+}
