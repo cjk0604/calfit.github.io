@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# 디지털헬스케어 React 앱
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+이 프로젝트는 디지털헬스케어 브랜드 정보를 제공하는 React 웹 애플리케이션입니다.
 
-## Available Scripts
+## 주요 기능
 
-In the project directory, you can run:
+- 🏥 **헬스케어 브랜드 정보**: 다양한 디지털헬스케어 브랜드 소개
+- 👨‍⚕️ **관리자 페이지**: 콘텐츠 관리 시스템 (CRUD)
+- 📱 **반응형 디자인**: 모바일, 태블릿, 데스크톱 지원
+- 🔍 **검색 및 필터링**: 브랜드 카테고리별 필터링
 
-### `npm start`
+## 관리자 기능
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **건강 정보 관리**: 의료 관련 기사/콘텐츠 추가, 수정, 삭제
+- **서비스 관리**: 헬스케어 서비스 정보 관리
+- **의료진 관리**: 의사 정보 관리
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 기술 스택
 
-### `npm test`
+- **Frontend**: React 19, Material-UI
+- **Routing**: React Router DOM
+- **State Management**: React Context API
+- **Styling**: CSS3, Material-UI Theme
+- **Build Tool**: Create React App
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 실행 방법
 
-### `npm run build`
+### 개발 환경
+```bash
+npm install
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 프로덕션 빌드
+```bash
+npm run build
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### GitHub Pages 배포
+```bash
+npm run deploy
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 프로젝트 구조
 
-### `npm run eject`
+```
+src/
+├── components/          # 재사용 가능한 컴포넌트
+│   └── layout/         # 레이아웃 컴포넌트
+├── contexts/           # React Context
+├── data/              # 목업 데이터
+├── pages/             # 페이지 컴포넌트
+└── assets/            # 정적 자원
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 페이지 구성
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **홈페이지** (`/`): 브랜드 목록 및 필터링
+- **브랜드 상세** (`/brand/:id`): 개별 브랜드 정보
+- **소개** (`/about`): 서비스 소개
+- **문의하기** (`/contact`): 연락처 정보
+- **관리자** (`/admin`): 콘텐츠 관리 시스템
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 배포 URL
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+https://cjk0604.github.io/calfit.github.io
 
-## Learn More
+## 라이선스
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License
